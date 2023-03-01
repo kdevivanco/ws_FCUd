@@ -8,7 +8,6 @@ import re
 
 class Webscrape():
     def __init__(self):
-        self.api_key = 'RW3O9D54I6Y5N56OQPMMT0TV8F8EPNLV897KVNC8TX1ZXR5V579QCZ8OHLMRQJ80C1HT9D33UF4M34ZO'
         self.responses = []
         self.soups = []
     
@@ -27,7 +26,7 @@ class Webscrape():
             response = requests.get(
                 url ='https://app.scrapingbee.com/api/v1/',
                 params={
-                    'api_key': 'RW3O9D54I6Y5N56OQPMMT0TV8F8EPNLV897KVNC8TX1ZXR5V579QCZ8OHLMRQJ80C1HT9D33UF4M34ZO',
+                    'api_key': #here goes the scraping bee api key,
                     'url': url,
                 },
             )
